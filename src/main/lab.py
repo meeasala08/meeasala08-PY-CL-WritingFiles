@@ -16,6 +16,7 @@ class Lab:
         """
         try:
             with open(filename, 'w') as file:
+                file.write(content)
                 
                 # Write your code here so that you should be able to write the content into the file
 
